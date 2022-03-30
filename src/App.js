@@ -66,6 +66,7 @@ JR放出駅	https//intel.ingress.com/?pll=34.687779,135.562864	d990a97f46f64c359
     return (
       <div className="App">
         <h1>
+          Convert{" "}
           <a href="https://www.reddit.com/r/Ingress/comments/lgpvq6/iitc_plugin_to_show_core_inventory/">
             CORE subsc. inventory
           </a>{" "}
