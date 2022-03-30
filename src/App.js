@@ -75,7 +75,7 @@ JR放出駅	https//intel.ingress.com/?pll=34.687779,135.562864	d990a97f46f64c359
         <h2>Paste Core inventory TSV here</h2>
         <textarea
           style={{ width: 100 + "%", height: 12 + "em" }}
-          value={this.state.tsv}
+          defaultValue={this.state.tsv}
           onChange={this.handleTsvChange}
         />
         <br />
@@ -83,7 +83,7 @@ JR放出駅	https//intel.ingress.com/?pll=34.687779,135.562864	d990a97f46f64c359
         <h2>IITC bookmark json</h2>
         <textarea
           style={{ width: 100 + "%", height: 12 + "em" }}
-          value={this.state.json}
+          defaultValue={this.state.json}
         />
         <br />
       </div>
