@@ -21,7 +21,6 @@ JR放出駅	https//intel.ingress.com/?pll=34.687779,135.562864	d990a97f46f64c359
   }
   handleClickConvert(event) {
     this.setState({ json: this.reduceTsv(this.state.tsv) });
-    console.log("aa");
   }
 
   reduceTsv(state_tsv) {
@@ -83,7 +82,8 @@ JR放出駅	https//intel.ingress.com/?pll=34.687779,135.562864	d990a97f46f64c359
         <h2>IITC bookmark json</h2>
         <textarea
           style={{ width: 100 + "%", height: 12 + "em" }}
-          defaultValue={this.state.json}
+          value={this.state.json}
+          readOnly
         />
         <br />
       </div>
